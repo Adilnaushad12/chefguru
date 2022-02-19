@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+        <title>cooking website</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+ <style>
+  *{
+    margin-left:0px;
+  }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100vh;
+  }
+  .logo img{
+    border-radius: 54px;
+  }
+  .glow h1{
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 25px;
+
+
+  }
+   .glow h1 span{
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+   }
+   .glow h1 span:nth-child(1)
+   {
+      animation-delay: 0s;
+   }
+    .glow h1 span:nth-child(2)
+   {
+      animation-delay: 0.25s;
+   }
+    .glow h1 span:nth-child(3)
+   {
+      animation-delay: 0.5s;
+   }
+    .glow h1 span:nth-child(4)
+   {
+      animation-delay: 0.75s;
+   }
+    .glow h1 span:nth-child(5)
+   {
+      animation-delay: 1s;
+   }
+    .glow h1 span:nth-child(6)
+   {
+      animation-delay: 1.25s;
+   }
+    .glow h1 span:nth-child(7)
+   {
+      animation-delay: 1.5s;
+   }
+    .glow h1 span:nth-child(8)
+   {
+      animation-delay: 1.75s;
+   }
+   @keyframes animate
+   {
+      0%,100%
+    {
+      color: #fff;
+      filter: blur(2px);
+      text-shadow: 0 0 10px #00b3ff,
+                  0 0 20px #00b3ff,
+                  0 0 40px #00b3ff,
+                  0 0 80px #00b3ff,
+                  0 0 120px #00b3ff,
+                  0 0 200px #00b3ff,
+                  0 0 300px #00b3ff,
+                  0 0 400px #00b3ff;
+    }
+    5%,95%
+    {
+      color: #111;
+      filter: blur(0px);
+      text-shadow: 0 0 10px none;
+    }
+
+   }
+  </style>
+
+    </head>
+    <body style="overflow-x: hidden;">
+
+        	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">	
+    <div class="logo">
+		<a href=""class="navbar-brand">
+      
+      <img src="logo.jpg"><br>
+      <div class="glow">
+      <h1>
+        <span>c</span>
+        <span>h</span>
+        <span>e</span>
+        <span>f</span>
+        <span>g</span>
+        <span>u</span>
+        <span>r</span>
+        <span>u</span>
+      </h1>
+    </div>
+    </div></a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarid">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarid">
+				<ul class="navbar-nav text-center ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+					<li class="nav-item"><a href="#about"class="nav-link">ABOUT US</a></li>
+					<li class="nav-item"><a href="contact.html"class="nav-link">CONTACT US</a></li>
+					<li class="nav-item"><a href="#portfolio"class="nav-link">PORTFOLIO</a></li>
+					<li class="nav-item"><a href="#OUR TEAM"class="nav-link">TEAM</a></li>
+					<li class="nav-item"><a href="signin.html"class="nav-link">SIGNIN</a></li>
+				</ul>
+		</div>
+	</div>
+		
+	</nav>
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="pic1.jpg" alt="pic1">
+    </div>
+    <div class="carousel-item">
+      <img src="pic2.jpg" alt="pic2">
+    </div>
+    <div class="carousel-item">
+      <img src="pic3.jpg" alt="pic3">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+<div class="about" id="about">
+  <h2 class="text-center">ABOUT US</h2>
+  <p>Alo is a contemporary French restaurant and cocktail bar located atop a heritage building in downtown Toronto. We celebrate the finest in seasonal ingredients paired with genuine hospitality. Our dining room offers blind, multi-course tasting menus, which our sommeliers complement with distinctive wines from both familiar and little-known regions and producers.</p>
+
+<p>Our barroom, which accepts walk-ins, features classically-inspired cocktails and a sharing-style, à la carte menu consisting of raw seafood, meat-based entrées, vegetable-focused sides and desserts. We accept a few reservations in our barroom each evening as well. Bookings for alo’s dining room open two months at a time and can only be made through www.exploretock.com. We offer two distinct dining experiences, the Dining Room and the Kitchen Counter, which are respectively priced at $135 and $165, with the option of adding wine pairings. Bookings for May and June open on Tuesday, April 2nd at 10:00am EST.</p>
+
+<p>Alo is typically available for private functions on Sundays and Mondays, as these are our usual days of closure. The space can accommodate up to 40 guests for a seated dinner, structured as a multi-course tasting menu. For more information, please contact us at events@alorestaurant.com.</p>
+  
+</div>
+  <div class="modal-content text-center bg-dark text-white text-uppercase" id="portfolio">
+    <h2>our portfolio</h2>
+    <p>in this we describe the images which we have taken from the kitchen</p>
+      “You will be delighted, tempted and intrigued by the adventure in gastronomy at this magical indian small-plates specialist.”
+                           — Zagat
+    
+  </div>
+
+  <div class="row" >
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port1.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port2.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port4.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port6.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port7.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="placeBox">
+        <div class="imgBx">
+          <img src="port8.jpg" class="img-fluid">
+          
+        </div>
+        <div class="content">
+          <h3>Chef Name:<br><span>Cuisine Name:</span></h3>
+          
+        </div>
+        
+      </div>      
+    </div>
+  </div>
+
+  
+<div class="chef" id="OUR TEAM">
+  <h1 class="text-white bg-dark text-center">OUR TEAM</h1>
+  <div class="chef-image text-center">
+    <img src="chef1.jpg">
+  </div>
+  <h2 class="chef-title text-center">nick</h2>
+  <p class="chef-subtitle text-center">chef/owner</p>
+  <div class="chef2row">
+  <div class="chef-image text-center">
+    <img src="chef2.jpg">
+    <h2>jhones</h2>
+    <p>General Manager</p>
+  </div>
+  <div class="chef3&4 text-center">
+    
+    <img src="chef3.jpg">
+    <h2 class="chef-title">Patrik kriss</h2>
+    <p class="chef-subtitle">chef de cusine</p>
+
+    <img src="chef4.jpg">
+    <h2>alaster</h2>
+    <p>Bar Manager</p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container text-center">
+<div class="card-footer">
+<div class="footer bg-dark text-white">
+  
+    <p class="copyrighttext-muted">Copyrght &copy;chefguru 2019<br>site developed by Naushad</p>
+    
+  </div>
+  </div>
+  
+</div>
+</div>
+
+
+
+
+
+
+
+<!--   this work is under construction for the footer  of the page
+<footer id="footer">
+ 
+<div class="col-lg-3 col-md-6 footer-newsletter">
+<h4>Our News Letter</h4>
+<p>
+Before he co-founded a content delivery network, Henzel started a variety of other businesses, including technology startups, e-commerce and a small store chain.[4] In 2002, he founded RMS, an information technology and services company. In 2009, he co-founded MaxCDN, a content delivery network (CDN) provider, based in Los Angeles with Christopher Ueland.[5] In 2013, MaxCDN was listed as the fifth largest CDN by Datanyze.com.[6] Henzel writes blogs for Huffington Post, FastCompany, and Inc., as well as for his own blog covering content delivery networks and entrepreneurship.[7][8] In 2017, he started an online course named Managing Happiness on how to eliminate stress and struggles in daily life.[9][10] In 2018, he acquired TaskDrive that provides lead research for companies.</p>
+</div>
+</div>
+</div>
+</div>
+<p class="copyright text-muted">Copyrght &copy;chefguru 2019</p>
+</footer> -->
+
+
+
+
+    </body>
+</html>
